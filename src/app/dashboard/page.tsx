@@ -276,7 +276,7 @@ export default function AdminDashboard() {
                         </span>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                        {getPlanDisplay(user.plan_id)}
+                        {getPlanDisplay(user.plan_id ?? null)}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
                         {user.end_date 
